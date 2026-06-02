@@ -13,6 +13,11 @@ AI-skill/
 └── README.md
 ```
 
+说明：
+- 下载下来拿到的是**一个总仓库文件夹** `AI-skill/`
+- 这个总仓库下面再分成两个顶层目录：`codex-skills/` 和 `claude code-skill/`
+- 每个 Skill 本身又是一个独立文件夹，例如 `prompt-optimizer/`，里面放 `SKILL.md` 和按需拆分的 `references/`
+
 ## `codex-skills/` — Codex 精选（21 个）
 
 已删重去冗，留存优质。
@@ -52,6 +57,11 @@ git sparse-checkout set codex-skills
 # 或直接全库拉取，手动挂载子目录
 git clone https://github.com/Daniel1107/AI-skill.git
 ```
+
+结论很简单：
+- 你下载到本地时，默认是一个总仓库文件夹
+- 你要挂载的是仓库里的某个子目录，而不是把两个顶层目录混成一个
+- `prompt-optimizer` 这种 Skill 内部是单个技能文件夹，不是两个并列技能文件夹
 
 ## `claude code-skill/` — Claude Code 精选（24 个）
 
