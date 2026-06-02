@@ -8,8 +8,8 @@
 
 ```
 AI-skill/
-├── codex-skills/        ← 21 个精选 Codex skill（直接 git clone 挂载使用）
-├── claude code-skill/   ← 24 个精选合集（给 Claude Code 端使用）
+├── codex-skills/        ← 22 个精选 Codex skill（直接 git clone 挂载使用）
+├── claude code-skill/   ← 25 个精选合集（给 Claude Code 端使用）
 └── README.md
 ```
 
@@ -40,6 +40,7 @@ AI-skill/
 | minimax-xlsx | Excel 电子表格创建编辑 |
 | network-interface-health | 网络接口健康诊断 |
 | pdf | PDF 处理工具 |
+| ppt-master | 高质量 PPTX 生成流水线 |
 | pptx-generator | PPTX 生成（PptxGenJS） |
 | project-planner | 项目规划与任务分解 |
 | prompt-optimizer | 提示词优化专家 |
@@ -86,6 +87,7 @@ git clone https://github.com/Daniel1107/AI-skill.git
 | minimax-pdf | PDF 生成 |
 | minimax-xlsx | Excel 电子表格 |
 | network-interface-health | 网络接口健康诊断 |
+| ppt-master | 高质量 PPTX 生成流水线 |
 | pptx-generator | PPTX 生成（PptxGenJS） |
 | project-planner | 项目规划与任务分解 |
 | prompt-optimizer | 提示词优化专家 |
